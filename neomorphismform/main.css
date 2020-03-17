@@ -1,0 +1,185 @@
+ *{
+        font-family: 'Muli',sans-serif;
+        box-sizing: border-box;
+
+     }  
+     body{
+            background-color:#f1f3f6;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  
+   
+
+        }
+    .main-container{
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f1f3f6; 
+    display: flex;
+    font-family:'Roboto',sans-serif;
+   
+    }
+
+    .form{
+        width: 300px;
+        height: 500px;
+        margin: 0 auto;
+    background-color:#f1f3f6; 
+    text-align: center;
+    box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #fafafa;
+    border-radius: 15px;
+    animation: animate 1s forwards 0.2s ease-in;
+    
+    }
+    input{
+        font-size:16px;
+        box-shadow: inset 5px 5px 5px #dadada, inset -5px -5px 5px #fafafa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    outline: none;
+    caret-color: #522652;
+    background-color: transparent;
+    padding-left: 15px;
+    
+    }
+    ::placeholder{
+        color:#B1B7B4;
+       
+    }
+    .form button{
+        width:160px;
+        height:40px;
+        background-color:#1900B4;
+        color:white;
+        border:1px solid #1900B4;
+        margin-top: 25px;
+        border-radius: 6px;
+        word-spacing: 1px;
+        font-size: 1.1rem;
+        margin-right: -26px;
+        cursor: pointer;
+        outline: none;
+       
+       
+
+    }
+    
+@keyframes animate{
+    0%{
+        opacity: 0;
+        }
+    48%{
+        opacity: 0.5;
+        }
+    100%{
+       
+        opacity: 1;
+        }
+}
+
+
+    .social-media{
+        width: 300px;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #fafafa;
+        border-radius: 15px;
+        z-index: 555;
+        background-color:#f1f3f6; 
+        transform: translateX(-278px);
+        animation: yourAnimation 1s forwards 0.2s ease;
+    
+    }
+    @keyframes yourAnimation{
+    0%{
+        transform: translateX(-278px);
+        }
+   
+    100%{
+        transform: translateX(0px);
+        }
+}
+
+   .facebook{
+       width:202px;
+        height:35px;
+        background-color:transparent;
+        color:#1900B4;
+        background-color: #d2d0d026;
+        font-weight: 600;
+      border: none;
+      border-radius: 10px;
+        margin-top: 25px;
+        box-shadow:  5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+        cursor: pointer;
+   }
+   .twitter{
+       width:202px;
+        height:35px;
+        background-color:transparent;
+        background-color: #d2d0d026;
+        color:#1900B4;
+        border: none;
+        margin-top: 25px;
+        box-shadow:  5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+        font-weight: 600;
+        border-radius: 10px;
+        cursor: pointer;
+   }
+   .google{
+       width:202px;
+        height:35px;
+        background-color:transparent;
+        background-color:#d2d0d026;
+        color:#1900B4;
+        font-weight: 600;
+        border: none;
+        margin-top: 25px;
+        box-shadow: 5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+        border-radius: 10px;
+        cursor: pointer;
+   }
+   
+   .facebook:hover{
+    box-shadow: inset 5px 5px 5px #dadada, inset  -5px -5px 5px #fafafa;
+   }
+   .twitter:hover{
+    box-shadow: inset 5px 5px 5px #dadada, inset  -5px -5px 5px #fafafa;
+   }
+   .google:hover{
+    box-shadow: inset 5px 5px 5px #dadada, inset  -5px -5px 5px #fafafa;
+   }
+   ::selection{
+    background-color:#17A087;
+   }
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.fa{
+   
+    box-shadow: inset 5px 5px 5px #dadada, inset -5px -5px 5px #fafafa;
+     width:50px;
+     height:50px;
+    border-radius:50%;
+    margin: 5px;
+    padding:10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.fa:hover{
+    color:#1900B4;
+    box-shadow:  5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+}
